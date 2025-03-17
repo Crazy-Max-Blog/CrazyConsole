@@ -1,0 +1,17 @@
+{
+  "name": "CrazyConsole",
+  "about": "Игровая консоль на ESP8266",
+  "version": "0.1",
+  "notes": "Поехали!",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/Crazy-Max-Blog/CrazyConsole/main/bin/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
